@@ -1,0 +1,74 @@
+# Leon Rowland <leon@pronamic.nl>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pronamic Employees\n"
+"POT-Creation-Date: 2013-08-22 11:01+0100\n"
+"PO-Revision-Date: 2013-08-22 11:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: Pronamic\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;"
+"_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;"
+"esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../src/Pronamic/Employees/Plugin.php:21
+msgctxt "Plural for Post Type Label"
+msgid "Employees"
+msgstr "Werknemers"
+
+#: ../src/Pronamic/Employees/Plugin.php:22
+msgctxt "Singular for Post Type Label"
+msgid "Employee"
+msgstr "Werknemer"
+
+#: ../src/Pronamic/Employees/Plugin.php:23
+msgctxt "employee"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: ../src/Pronamic/Employees/Plugin.php:24
+msgid "Add New Employee"
+msgstr "Nieuwe Werknemer toevoegen"
+
+#: ../src/Pronamic/Employees/Plugin.php:25
+msgid "Edit Employee"
+msgstr "Werknemer bewerken"
+
+#: ../src/Pronamic/Employees/Plugin.php:26
+msgid "New Employee"
+msgstr "Nieuwe Werknemer"
+
+#: ../src/Pronamic/Employees/Plugin.php:27
+msgid "View Employee"
+msgstr "Bekijk Werknemer"
+
+#: ../src/Pronamic/Employees/Plugin.php:28
+msgid "Search Employees"
+msgstr "Zoek Werknemers"
+
+#: ../src/Pronamic/Employees/Plugin.php:29
+msgid "No employees found"
+msgstr "Geen Werknemers gevonden"
+
+#: ../src/Pronamic/Employees/Plugin.php:30
+msgid "No employees found in Trash"
+msgstr "Geen Werknemers gevonden in prullenbak"
+
+#: ../src/Pronamic/Employees/Plugin.php:31
+msgid "Employees"
+msgstr "Werknemers"
+
+#: ../src/Pronamic/Employees/Plugin.php:44
+msgctxt "Employee Default URI Slug"
+msgid "employee"
+msgstr "werknemer"
+
+#~ msgid "All Employees"
+#~ msgstr "Alle Werknemers"

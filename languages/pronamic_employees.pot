@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pronamic Employees\n"
+"POT-Creation-Date: 2013-08-22 10:41+0100\n"
+"PO-Revision-Date: 2013-08-22 10:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: Pronamic <info@pronamic.nl>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../src/Pronamic/Employees/Plugin.php:21
+#: ../src/Pronamic/Employees/Plugin.php:23
+msgid "Employees"
+msgstr "Werknemers"
+
+#: ../src/Pronamic/Employees/Plugin.php:22
+msgid "Employee"
+msgstr "Werknemer"
+
+#: ../src/Pronamic/Employees/Plugin.php:24
+msgid "All Employees"
+msgstr "Alle werknemers"
+
+#: ../src/Pronamic/Employees/Plugin.php:25
+msgid "Add New"
+msgstr "Voeg nieuwe"
+
+#: ../src/Pronamic/Employees/Plugin.php:26
+msgid "Add New Employee"
+msgstr "Voeg nieuw Werknemer"
+
+#: ../src/Pronamic/Employees/Plugin.php:27
+msgid "Edit Employee"
+msgstr "Werknemer bewerken"
+
+#: ../src/Pronamic/Employees/Plugin.php:28
+msgid "New Employee"
+msgstr "Nieuwe Werknemer"
+
+#: ../src/Pronamic/Employees/Plugin.php:29
+msgid "View Employee"
+msgstr "Bekijk Werknemer"
+
+#: ../src/Pronamic/Employees/Plugin.php:30
+msgid "Search Employees"
+msgstr "Zoek Werknemers"
+
+#: ../src/Pronamic/Employees/Plugin.php:31
+msgid "No employees found"
+msgstr "Geen Werknemers gevonden"
+
+#: ../src/Pronamic/Employees/Plugin.php:32
+msgid "No employees found in Trash"
+msgstr "Geen Werknemers gevonden in prullenbak"
+
+#: ../src/Pronamic/Employees/Plugin.php:46
+msgid "employee"
+msgstr "werknemer"
