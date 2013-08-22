@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pronamic Employees\n"
 "POT-Creation-Date: 2013-08-22 11:01+0100\n"
-"PO-Revision-Date: 2013-08-22 11:02+0100\n"
+"PO-Revision-Date: 2013-08-22 11:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: Pronamic\n"
 "Language: nl_NL\n"
@@ -35,7 +35,7 @@ msgstr "Nieuwe toevoegen"
 
 #: ../src/Pronamic/Employees/Plugin.php:24
 msgid "Add New Employee"
-msgstr "Nieuwe Werknemer toevoegen"
+msgstr "Nieuwe werknemer toevoegen"
 
 #: ../src/Pronamic/Employees/Plugin.php:25
 msgid "Edit Employee"
@@ -43,23 +43,23 @@ msgstr "Werknemer bewerken"
 
 #: ../src/Pronamic/Employees/Plugin.php:26
 msgid "New Employee"
-msgstr "Nieuwe Werknemer"
+msgstr "Nieuwe werknemer"
 
 #: ../src/Pronamic/Employees/Plugin.php:27
 msgid "View Employee"
-msgstr "Bekijk Werknemer"
+msgstr "Bekijk werknemer"
 
 #: ../src/Pronamic/Employees/Plugin.php:28
 msgid "Search Employees"
-msgstr "Zoek Werknemers"
+msgstr "Zoek werknemers"
 
 #: ../src/Pronamic/Employees/Plugin.php:29
 msgid "No employees found"
-msgstr "Geen Werknemers gevonden"
+msgstr "Geen werknemers gevonden"
 
 #: ../src/Pronamic/Employees/Plugin.php:30
 msgid "No employees found in Trash"
-msgstr "Geen Werknemers gevonden in prullenbak"
+msgstr "Geen werknemers gevonden in prullenbak"
 
 #: ../src/Pronamic/Employees/Plugin.php:31
 msgid "Employees"
