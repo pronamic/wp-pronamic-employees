@@ -57,5 +57,38 @@ class Pronamic_Employees_Plugin {
 		);
 
 		register_post_type( 'pronamic_employee', $pronamic_employee_arguments );
+		
+		$employee_category_labels = array(
+			'name'                       => _x( 'Employee Categories', 'Plural for Taxonomy Type Label', 'pronamic_employees' ),
+			'singular_name'              => _x( 'Employee Category', 'Singular for Taxonomy Type Label', 'pronamic_employees' ),
+			'all_items'                  => __( 'All Employee Categories', 'pronamic_employees' ),
+			'edit_item'                  => __( 'Edit Employee Category', 'pronamic_employees' ),
+			'view_item'                  => __( 'View Employee Category', 'pronamic_employees' ),
+			'update_item'                => __( 'Update Employee Category', 'pronamic_employees' ),
+			'add_new_item'               => __( 'Add New Employee Category', 'pronamic_employees' ),
+			'new_item_name'              => __( 'New Employee Category Name', 'pronamic_employees' ),
+			'parent_item'                => __( 'Parent Employee Category', 'pronamic_employees' ),
+			'parent_item_colon'          => __( 'Parent Employee Category:', 'pronamic_employees' ),
+			'search_items'               => __( 'Search Employee Categories', 'pronamic_employees' ),
+			'popular_items'              => __( 'Popular Employee Categories', 'pronamic_employees' ),
+			'seperate_items_with_commas' => __( 'Seperate Employee Categories with commas', 'pronamic_employees' ),
+			'add_or_remove_items'        => __( 'Add or remove employee categories' ),
+			'choose_from_most_used'      => __( 'Choose from the most used employee categories', 'pronamic_employees' ),
+			'not_found'                  => __( 'No employee categories found' )
+		);
+		
+		$employee_category_arguments = array(
+			'labels'       => $employee_category_labels,
+			'hierarchical' => true,
+			'rewrite'      => array(
+				'slug' => get_option(
+					'pronamic_employees_taxonomy_category_slug',
+					_x( 'category', 'Employee Category Default URI Slug', 'pronamic_employees' )
+				)
+			)
+		);
+		
+		register_taxonomy( 'employee_category', 'pronamic_employee', $employee_category_arguments );
+		register_taxonomy_for_object_type( 'employee_category', 'pronamic_employee' );
 	}
 }
