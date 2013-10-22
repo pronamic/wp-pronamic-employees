@@ -30,6 +30,9 @@ class Pronamic_Employees_Plugin {
 			'not_found_in_trash' => __( 'No employees found in Trash', 'pronamic_employees' ),
 			'menu_name'          => __( 'Employees', 'pronamic_employees' ),
 		);
+		
+		$slug_pronamic_employee = get_option( 'pronamic_employees_post_type_slug' );
+		$slug_pronamic_employee = ( ! empty( $slug_pronamic_employee ) ? $slug_pronamic_employee : _x( 'employee', 'Employee Default URI Slug', 'pronamic_employees' ) );
 
 		$pronamic_employee_arguments = array(
 			'labels' => $pronamic_employee_labels,
@@ -38,12 +41,7 @@ class Pronamic_Employees_Plugin {
 			'show_ui' => true,
 			'show_in_menu' => true,
 			'query_var' => true,
-			'rewrite' => array( 
-				'slug' => get_option( 
-					'pronamic_employees_post_type_slug', 
-					_x( 'employee', 'Employee Default URI Slug', 'pronamic_employees' ) 
-				) 
-			),
+			'rewrite' => array( 'slug' => $slug_pronamic_employee ),
 			'capability_type' => 'post',
 			'has_archive' => true,
 			'hierarchical' => false,
@@ -77,15 +75,13 @@ class Pronamic_Employees_Plugin {
 			'not_found'                  => __( 'No employee categories found' )
 		);
 		
+		$slug_employee_category = get_option( 'pronamic_employees_taxonomy_category_slug' );
+		$slug_employee_category = ( ! empty( $slug_employee_category ) ? $slug_employee_category : _x( 'category', 'Employee Category Default URI Slug', 'pronamic_employees' ) );
+		
 		$employee_category_arguments = array(
 			'labels'       => $employee_category_labels,
 			'hierarchical' => true,
-			'rewrite'      => array(
-				'slug' => get_option(
-					'pronamic_employees_taxonomy_category_slug',
-					_x( 'category', 'Employee Category Default URI Slug', 'pronamic_employees' )
-				)
-			)
+			'rewrite'      => array( 'slug' => $slug_employee_category )
 		);
 		
 		register_taxonomy( 'employee_category', 'pronamic_employee', $employee_category_arguments );
