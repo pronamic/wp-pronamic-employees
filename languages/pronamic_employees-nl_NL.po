@@ -2,8 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pronamic Employees\n"
-"POT-Creation-Date: 2013-08-22 11:01+0100\n"
-"PO-Revision-Date: 2013-08-22 11:47+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-02 09:04+0100\n"
+"PO-Revision-Date: 2013-10-02 09:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: Pronamic\n"
 "Language: nl_NL\n"
@@ -70,5 +71,73 @@ msgctxt "Employee Default URI Slug"
 msgid "employee"
 msgstr "werknemer"
 
-#~ msgid "All Employees"
-#~ msgstr "Alle Werknemers"
+#: ../src/Pronamic/Employees/Plugin.php:62
+msgctxt "Plural for Taxonomy Type Label"
+msgid "Employee Categories"
+msgstr "Werknemer categorieën"
+
+#: ../src/Pronamic/Employees/Plugin.php:63
+msgctxt "Singular for Taxonomy Type Label"
+msgid "Employee Category"
+msgstr "Werknemer categorie"
+
+#: ../src/Pronamic/Employees/Plugin.php:64
+msgid "All Employee Categories"
+msgstr "Alle werknemer categorieën"
+
+#: ../src/Pronamic/Employees/Plugin.php:65
+msgid "Edit Employee Category"
+msgstr "Werknemer categorie bewerken"
+
+#: ../src/Pronamic/Employees/Plugin.php:66
+msgid "View Employee Category"
+msgstr "Bekijk werknemer categorie"
+
+#: ../src/Pronamic/Employees/Plugin.php:67
+msgid "Update Employee Category"
+msgstr "Werknemer categorie bijwerken"
+
+#: ../src/Pronamic/Employees/Plugin.php:68
+msgid "Add New Employee Category"
+msgstr "Nieuwe werknemer categorie toevoegen"
+
+#: ../src/Pronamic/Employees/Plugin.php:69
+msgid "New Employee Category Name"
+msgstr "Nieuwe werknemer categorie naam"
+
+#: ../src/Pronamic/Employees/Plugin.php:70
+msgid "Parent Employee Category"
+msgstr "Bovenliggende werknemer categorie"
+
+#: ../src/Pronamic/Employees/Plugin.php:71
+msgid "Parent Employee Category:"
+msgstr "Bovenliggende werknemer categorie:"
+
+#: ../src/Pronamic/Employees/Plugin.php:72
+msgid "Search Employee Categories"
+msgstr "Zoek werknemer categorieën"
+
+#: ../src/Pronamic/Employees/Plugin.php:73
+msgid "Popular Employee Categories"
+msgstr "Populaire werknemer categorieën"
+
+#: ../src/Pronamic/Employees/Plugin.php:74
+msgid "Seperate Employee Categories with commas"
+msgstr "Werknemer categorieën opdelen met komma's"
+
+#: ../src/Pronamic/Employees/Plugin.php:75
+msgid "Add or remove employee categories"
+msgstr "Werkenemer categorie toevoegen of verwijderen"
+
+#: ../src/Pronamic/Employees/Plugin.php:76
+msgid "Choose from the most used employee categories"
+msgstr "Kies uit de meest gebruikte werknemer categorieën"
+
+#: ../src/Pronamic/Employees/Plugin.php:77
+msgid "No employee categories found"
+msgstr "Geen werknemer categorie gevonden"
+
+#: ../src/Pronamic/Employees/Plugin.php:86
+msgctxt "Employee Category Default URI Slug"
+msgid "category"
+msgstr "categorie"
